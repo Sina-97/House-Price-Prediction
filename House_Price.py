@@ -13,7 +13,6 @@ from sklearn.model_selection import cross_val_score
 from xgboost import XGBRegressor
 from sklearn.preprocessing import LabelEncoder
 
-#FileNotFoundError: [Errno 2] No such file or directory: '../train.csv'
 
 data =pd.read_csv('train.csv')
 df = pd.DataFrame(data)
